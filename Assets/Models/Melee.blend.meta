@@ -1,0 +1,347 @@
+fileFormatVersion: 2
+guid: b315bea1e07aa204182dd5a6e4e539bb
+timeCreated: 1426597135
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Arm_L_
+    100002: Arm_R
+    100004: Armature
+    100006: Chest
+    100008: Cube_001
+    100010: Foot_L_
+    100012: Foot_R
+    100014: Hand_L_
+    100016: Hand_R
+    100018: Head
+    100020: Leg_L_
+    100022: Leg_R
+    100024: //RootNode
+    100026: Neck
+    100028: Root
+    100030: Shoulder_L_
+    100032: Shoulder_R
+    400000: Arm_L_
+    400002: Arm_R
+    400004: Armature
+    400006: Chest
+    400008: Cube_001
+    400010: Foot_L_
+    400012: Foot_R
+    400014: Hand_L_
+    400016: Hand_R
+    400018: Head
+    400020: Leg_L_
+    400022: Leg_R
+    400024: //RootNode
+    400026: Neck
+    400028: Root
+    400030: Shoulder_L_
+    400032: Shoulder_R
+    4300000: Cube_001
+    7400000: Default Take
+    7400002: Attack
+    7400004: Dead
+    7400006: Idle
+    7400008: Walk
+    9500000: //RootNode
+    13700000: Cube_001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Attack
+      takeName: Attack
+      firstFrame: -1
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 0
+      - path: Armature/Root
+        weight: 0
+      - path: Armature/Root/Chest
+        weight: 0
+      - path: Armature/Root/Chest/Leg_L_
+        weight: 0
+      - path: Armature/Root/Chest/Leg_L_/Foot_L_
+        weight: 0
+      - path: Armature/Root/Chest/Leg_R
+        weight: 0
+      - path: Armature/Root/Chest/Leg_R/Foot_R
+        weight: 0
+      - path: Armature/Root/Chest/Neck
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Shoulder_L_
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Shoulder_L_/Arm_L_
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Shoulder_L_/Arm_L_/Hand_L_
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Shoulder_R
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Shoulder_R/Arm_R
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Shoulder_R/Arm_R/Hand_R
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dead
+      takeName: Dead
+      firstFrame: -1
+      lastFrame: 37
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Chest
+        weight: 1
+      - path: Armature/Root/Chest/Leg_L_
+        weight: 1
+      - path: Armature/Root/Chest/Leg_L_/Foot_L_
+        weight: 1
+      - path: Armature/Root/Chest/Leg_R
+        weight: 1
+      - path: Armature/Root/Chest/Leg_R/Foot_R
+        weight: 1
+      - path: Armature/Root/Chest/Neck
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Shoulder_L_
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Shoulder_L_/Arm_L_
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Shoulder_L_/Arm_L_/Hand_L_
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Shoulder_R
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Shoulder_R/Arm_R
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Shoulder_R/Arm_R/Hand_R
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: 10
+      lastFrame: 98
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Chest
+        weight: 1
+      - path: Armature/Root/Chest/Leg_L_
+        weight: 1
+      - path: Armature/Root/Chest/Leg_L_/Foot_L_
+        weight: 1
+      - path: Armature/Root/Chest/Leg_R
+        weight: 1
+      - path: Armature/Root/Chest/Leg_R/Foot_R
+        weight: 1
+      - path: Armature/Root/Chest/Neck
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Shoulder_L_
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Shoulder_L_/Arm_L_
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Shoulder_L_/Arm_L_/Hand_L_
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Shoulder_R
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Shoulder_R/Arm_R
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Shoulder_R/Arm_R/Hand_R
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      firstFrame: -1
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Chest
+        weight: 1
+      - path: Armature/Root/Chest/Leg_L_
+        weight: 1
+      - path: Armature/Root/Chest/Leg_L_/Foot_L_
+        weight: 1
+      - path: Armature/Root/Chest/Leg_R
+        weight: 1
+      - path: Armature/Root/Chest/Leg_R/Foot_R
+        weight: 1
+      - path: Armature/Root/Chest/Neck
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Shoulder_L_
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Shoulder_L_/Arm_L_
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Shoulder_L_/Arm_L_/Hand_L_
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Shoulder_R
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Shoulder_R/Arm_R
+        weight: 1
+      - path: Armature/Root/Chest/Neck/Shoulder_R/Arm_R/Hand_R
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 0
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

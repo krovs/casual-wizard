@@ -1,0 +1,583 @@
+fileFormatVersion: 2
+guid: d6649b06023b8404d9a25342b594ad99
+timeCreated: 1426095458
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Chest
+    100004: Fingers_L
+    100006: Fingers_R
+    100008: Foot_L
+    100010: Foot_R
+    100012: Hand_L
+    100014: Hand_R
+    100016: Head
+    100018: Leg_Control_L
+    100020: Leg_Control_R
+    100022: Lower_Arm_L
+    100024: Lower_Arm_R
+    100026: Lower_Leg_L
+    100028: Lower_Leg_R
+    100030: Neck
+    100032: //RootNode
+    100034: Player
+    100036: Staff
+    100038: Staff_0
+    100040: Torso
+    100042: Upper_Arm_L
+    100044: Upper_Arm_R
+    100046: Upper_Leg_L
+    100048: Upper_Leg_R
+    400000: Armature
+    400002: Chest
+    400004: Fingers_L
+    400006: Fingers_R
+    400008: Foot_L
+    400010: Foot_R
+    400012: Hand_L
+    400014: Hand_R
+    400016: Head
+    400018: Leg_Control_L
+    400020: Leg_Control_R
+    400022: Lower_Arm_L
+    400024: Lower_Arm_R
+    400026: Lower_Leg_L
+    400028: Lower_Leg_R
+    400030: Neck
+    400032: //RootNode
+    400034: Player
+    400036: Staff
+    400038: Staff_0
+    400040: Torso
+    400042: Upper_Arm_L
+    400044: Upper_Arm_R
+    400046: Upper_Leg_L
+    400048: Upper_Leg_R
+    4300000: Staff
+    4300002: Player
+    7400000: Default Take
+    7400002: Casting1
+    7400004: Casting2
+    7400006: Idle
+    7400008: Walking
+    7400010: Casting3
+    7400012: Dead
+    9500000: //RootNode
+    13700000: Player
+    13700002: Staff
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Leg_Control_L
+        weight: 1
+      - path: Armature/Leg_Control_L/Foot_L
+        weight: 1
+      - path: Armature/Leg_Control_L/Foot_L/Fingers_L
+        weight: 1
+      - path: Armature/Leg_Control_R
+        weight: 1
+      - path: Armature/Leg_Control_R/Foot_R
+        weight: 1
+      - path: Armature/Leg_Control_R/Foot_R/Fingers_R
+        weight: 1
+      - path: Armature/Torso
+        weight: 1
+      - path: Armature/Torso/Chest
+        weight: 1
+      - path: Armature/Torso/Chest/Neck
+        weight: 1
+      - path: Armature/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Staff_0
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_R
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Armature/Torso/Upper_Leg_L
+        weight: 1
+      - path: Armature/Torso/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Armature/Torso/Upper_Leg_R
+        weight: 1
+      - path: Armature/Torso/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Player
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Casting1
+      takeName: Casting1
+      firstFrame: -1
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 0
+      - path: Armature/Leg_Control_L
+        weight: 0
+      - path: Armature/Leg_Control_L/Foot_L
+        weight: 0
+      - path: Armature/Leg_Control_L/Foot_L/Fingers_L
+        weight: 0
+      - path: Armature/Leg_Control_R
+        weight: 0
+      - path: Armature/Leg_Control_R/Foot_R
+        weight: 0
+      - path: Armature/Leg_Control_R/Foot_R/Fingers_R
+        weight: 0
+      - path: Armature/Torso
+        weight: 0
+      - path: Armature/Torso/Chest
+        weight: 0
+      - path: Armature/Torso/Chest/Neck
+        weight: 0
+      - path: Armature/Torso/Chest/Neck/Head
+        weight: 0
+      - path: Armature/Torso/Chest/Upper_Arm_L
+        weight: 0
+      - path: Armature/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 0
+      - path: Armature/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 0
+      - path: Armature/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Staff_0
+        weight: 0
+      - path: Armature/Torso/Chest/Upper_Arm_R
+        weight: 0
+      - path: Armature/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Armature/Torso/Upper_Leg_L
+        weight: 0
+      - path: Armature/Torso/Upper_Leg_L/Lower_Leg_L
+        weight: 0
+      - path: Armature/Torso/Upper_Leg_R
+        weight: 0
+      - path: Armature/Torso/Upper_Leg_R/Lower_Leg_R
+        weight: 0
+      - path: Player
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Casting2
+      takeName: Casting2
+      firstFrame: -1
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Leg_Control_L
+        weight: 1
+      - path: Armature/Leg_Control_L/Foot_L
+        weight: 1
+      - path: Armature/Leg_Control_L/Foot_L/Fingers_L
+        weight: 1
+      - path: Armature/Leg_Control_R
+        weight: 1
+      - path: Armature/Leg_Control_R/Foot_R
+        weight: 1
+      - path: Armature/Leg_Control_R/Foot_R/Fingers_R
+        weight: 1
+      - path: Armature/Torso
+        weight: 1
+      - path: Armature/Torso/Chest
+        weight: 1
+      - path: Armature/Torso/Chest/Neck
+        weight: 1
+      - path: Armature/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Staff_0
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_R
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Armature/Torso/Upper_Leg_L
+        weight: 1
+      - path: Armature/Torso/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Armature/Torso/Upper_Leg_R
+        weight: 1
+      - path: Armature/Torso/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Player
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walking
+      takeName: Walking
+      firstFrame: -1
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Leg_Control_L
+        weight: 1
+      - path: Armature/Leg_Control_L/Foot_L
+        weight: 1
+      - path: Armature/Leg_Control_L/Foot_L/Fingers_L
+        weight: 1
+      - path: Armature/Leg_Control_R
+        weight: 1
+      - path: Armature/Leg_Control_R/Foot_R
+        weight: 1
+      - path: Armature/Leg_Control_R/Foot_R/Fingers_R
+        weight: 1
+      - path: Armature/Torso
+        weight: 1
+      - path: Armature/Torso/Chest
+        weight: 1
+      - path: Armature/Torso/Chest/Neck
+        weight: 1
+      - path: Armature/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Staff_0
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_R
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Armature/Torso/Upper_Leg_L
+        weight: 1
+      - path: Armature/Torso/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Armature/Torso/Upper_Leg_R
+        weight: 1
+      - path: Armature/Torso/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Player
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Casting3
+      takeName: Casting3
+      firstFrame: -1
+      lastFrame: 43
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 0
+      - path: Armature/Leg_Control_L
+        weight: 0
+      - path: Armature/Leg_Control_L/Foot_L
+        weight: 0
+      - path: Armature/Leg_Control_L/Foot_L/Fingers_L
+        weight: 0
+      - path: Armature/Leg_Control_R
+        weight: 0
+      - path: Armature/Leg_Control_R/Foot_R
+        weight: 0
+      - path: Armature/Leg_Control_R/Foot_R/Fingers_R
+        weight: 0
+      - path: Armature/Torso
+        weight: 0
+      - path: Armature/Torso/Chest
+        weight: 0
+      - path: Armature/Torso/Chest/Neck
+        weight: 0
+      - path: Armature/Torso/Chest/Neck/Head
+        weight: 0
+      - path: Armature/Torso/Chest/Upper_Arm_L
+        weight: 0
+      - path: Armature/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Staff_0
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_R
+        weight: 0
+      - path: Armature/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 0
+      - path: Armature/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 0
+      - path: Armature/Torso/Upper_Leg_L
+        weight: 0
+      - path: Armature/Torso/Upper_Leg_L/Lower_Leg_L
+        weight: 0
+      - path: Armature/Torso/Upper_Leg_R
+        weight: 0
+      - path: Armature/Torso/Upper_Leg_R/Lower_Leg_R
+        weight: 0
+      - path: Player
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dead
+      takeName: Dead
+      firstFrame: -1
+      lastFrame: 97
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Leg_Control_L
+        weight: 1
+      - path: Armature/Leg_Control_L/Foot_L
+        weight: 1
+      - path: Armature/Leg_Control_L/Foot_L/Fingers_L
+        weight: 1
+      - path: Armature/Leg_Control_R
+        weight: 1
+      - path: Armature/Leg_Control_R/Foot_R
+        weight: 1
+      - path: Armature/Leg_Control_R/Foot_R/Fingers_R
+        weight: 1
+      - path: Armature/Torso
+        weight: 1
+      - path: Armature/Torso/Chest
+        weight: 1
+      - path: Armature/Torso/Chest/Neck
+        weight: 1
+      - path: Armature/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Staff_0
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_R
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Armature/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Armature/Torso/Upper_Leg_L
+        weight: 1
+      - path: Armature/Torso/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Armature/Torso/Upper_Leg_R
+        weight: 1
+      - path: Armature/Torso/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Player
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 0
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
